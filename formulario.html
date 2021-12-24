@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Formulário de Teste da Faculdade</h1>
+    <p><b> Escreva aqui suas informações: </b></p>
+    <form action="" method="POST">
+        
+        Nome: <div><input type="text" id="n" name="nome"></div>
+        E-mail:<div><input type="email" name="email" id="email"></div>
+        Senha:<div><input type="password" name="senha" id="senha"></div><br>
+        Mensagem: <textarea name="Mensagem" id="Msg" cols="20" rows="2"></textarea>
+        <div><input type="submit" value="Enviar"></div>
+        <br><br>
+    <fieldset>
+        <div>
+            Em qual Faculdade você estuda? <input type="radio" name="faculdade" value="Fic">FIC
+            <input type="radio" name="faculdade" value="Fic">FIC
+            <input type="radio" name="faculdade" value="Fic">FANOR
+            <input type="radio" name="faculdade" value="Fic">UNINASSAU
+            <input type="radio" name="faculdade" value="Fic">UNIFOR
+            <input type="radio" name="faculdade" value="Fic">UFC
+            <input type="radio" name="faculdade" value="Fic">UECE
+        </div>
+    </fieldset>    
+            <br><br>
+        <div>
+            <label>Disciplina:</label><br>
+            <select id="Materia">
+                <option selected disabled value="">Selecione</option>
+                <option>HTML e CSS3</option>
+                <option>Banco de Dados</option>
+                <option>Sistemas Operacionais</option>
+                <option>Segurança Cibernética</option>
+                <option>Java</option>
+            </select>
+        </div>
+
+    </form>
+</body>
+</html>
